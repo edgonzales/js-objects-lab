@@ -57,17 +57,18 @@ console.log(label);
   album4.albumDetails.label = 'Sire';
   console.log(album4.albumDetails);
     
-//   const album5 = {
-//     title: 'Little Creatures',
-//     albumDetails: {
-//       released: new Date('June 10, 1985'),
-//       labels: ['Sire', 'emi'],
-//       formats: ['CD', 'cassette', 'LP']
-//     }
-//   };
+  const album5 = {
+    title: 'Little Creatures',
+    albumDetails: {
+      released: new Date('June 10, 1985'),
+      labels: ['Sire', 'emi'],
+      formats: ['CD', 'cassette', 'LP']
+    }
+  };
   
-//   // Exercise 6:  Update the value 'emi' within album5's labels array to 'EMI'
-  
+  // Exercise 6:  Update the value 'emi' within album5's labels array to 'EMI'
+  album5.albumDetails.labels[1] = album5.albumDetails.labels[1].toUpperCase();
+  console.log(album5.albumDetails.labels);
   
   
   
