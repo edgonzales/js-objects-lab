@@ -15,7 +15,8 @@ const album1 = {
 
   // Exercise 2: Assign the string 'Sire' from album1 to a variable named label
 
-
+let label = album1.albumDetails.label;
+console.log(label);
 
 
 
