@@ -83,37 +83,38 @@ console.log(label);
     const formats = album6.albumDetails.formats;
     console.log(formats);
   
+  const album7 = {
+    title: 'Naked',
+    albumDetails: {
+      released: new Date('March 15, 1988'),
+      labels: ['Sire', 'EMI'],
+      formats: ['CD', 'cassette', 'LP']
+    }
+  };
   
-//   const album7 = {
-//     title: 'Naked',
-//     albumDetails: {
-//       released: new Date('March 15, 1988'),
-//       labels: ['Sire', 'EMI'],
-//       formats: ['CD', 'cassette', 'LP']
-//     }
-//   };
+  const talkingHeadsAlbums = [
+    album1,
+    album2,
+    album3,
+    album4,
+    album5,
+    album6,
+    album7
+  ];
   
-//   const talkingHeadsAlbums = [
-//     album1,
-//     album2,
-//     album3,
-//     album4,
-//     album5,
-//     album6,
-//     album7
-//   ];
+  // Exercise 8:  Using the talkingHeadsAlbums array, assign album5's labels 
+  // property to a variable named labels
+  const labels = talkingHeadsAlbums[4].albumDetails.labels;
+  console.log(labels);  
   
-//   // Exercise 8:  Using the talkingHeadsAlbums array, assign album5's labels property to a variable named labels
-  
+  // Exercise 9:  Using the talkingHeadsAlbums array, assign album7's released 
+  // property to album6's released property
+  talkingHeadsAlbums[5].albumDetails.released = talkingHeadsAlbums[6].albumDetails.released;
+  console.log(talkingHeadsAlbums[5].albumDetails.released);
   
   
   
-//   // Exercise 9:  Using the talkingHeadsAlbums array, assign album7's released property to album6's released property
-  
-  
-  
-  
-//   // Exercise 10:  Using the pre-defined variable named albumIdx below, assign the albumDetails object of the album located within the talkingHeadsAlbums array at the index represented by the value of albumIdx to a variable named albumDetails
+  // Exercise 10:  Using the pre-defined variable named albumIdx below, assign the albumDetails object of the album located within the talkingHeadsAlbums array at the index represented by the value of albumIdx to a variable named albumDetails
   
 //   let albumIdx = 4;
   
