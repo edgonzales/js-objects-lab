@@ -70,20 +70,18 @@ console.log(label);
   album5.albumDetails.labels[1] = album5.albumDetails.labels[1].toUpperCase();
   console.log(album5.albumDetails.labels);
   
+  const album6 = {
+    title: 'True Stories',
+    albumDetails: {
+      released: new Date('October 7, 1986'),
+      labels: ['Sire, EMI'],
+      formats: ['CD', 'cassette', 'LP']
+    }
+  };
   
-  
-//   const album6 = {
-//     title: 'True Stories',
-//     albumDetails: {
-//       released: new Date('October 7, 1986'),
-//       labels: ['Sire, EMI'],
-//       formats: ['CD', 'cassette', 'LP']
-//     }
-//   };
-  
-//   // Exercise 7:  Assign album6's formats array to a variable named formats
-  
-  
+  // Exercise 7:  Assign album6's formats array to a variable named formats
+    const formats = album6.albumDetails.formats;
+    console.log(formats);
   
   
 //   const album7 = {
