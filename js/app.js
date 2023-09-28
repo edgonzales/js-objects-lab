@@ -44,19 +44,19 @@ console.log(label);
   album3.albumDetails.released = Date.parse(album3.albumDetails.released);
   console.log(album3.albumDetails.released);
   
-//   const album4 = {
-//     title: 'Remain in Light',
-//     albumDetails: {
-//       released: new Date('October 8, 1980'),
-//       formats: ['Cassette', 'LP']
-//     }
-//   };
+  const album4 = {
+    title: 'Remain in Light',
+    albumDetails: {
+      released: new Date('October 8, 1980'),
+      formats: ['Cassette', 'LP']
+    }
+  };
   
-//   // Exercise 5:  Add a property named label with the value 'Sire' to album4's albumDetails property
-  
-  
-  
-  
+  // Exercise 5:  Add a property named label with the value 'Sire' to album4's albumDetails property
+  //console.log(album4.albumDetails);
+  album4.albumDetails.label = 'Sire';
+  console.log(album4.albumDetails);
+    
 //   const album5 = {
 //     title: 'Little Creatures',
 //     albumDetails: {
